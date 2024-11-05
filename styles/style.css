@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+
+}
+.signup-signin {
+    position: fixed;
+    right: 0;
+}
+.header-section {
+width: 50vw;
+}
