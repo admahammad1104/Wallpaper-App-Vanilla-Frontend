@@ -1,12 +1,31 @@
-.header {
-    display: flex;
-    flex-direction: row;
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
 
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }
 .signup-signin {
-    position: fixed;
-    right: 0;
+  position: fixed;
+  right: 0;
 }
 .header-section {
-width: 50vw;
+  width: 33vw;
+  padding: 20px;
+}
+.logo {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav-box {
+  margin: 0 20px;
 }
