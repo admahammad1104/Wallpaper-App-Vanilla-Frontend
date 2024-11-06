@@ -2,40 +2,77 @@
   width: 100vw;
   height: 100vh;
   margin: 0;
+  background-color: rgb(8, 65, 100);
 }
 .header {
   display: flex;
   flex-direction: row;
-  margin: 10px;
 }
 .signup-signin {
   position: fixed;
   right: 0;
 }
 .header-section {
-  width: 33vw;
   padding: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0 auto;
+  width: 33vw;
 }
 .logo {
-  font-family: "Chakra Petch", sans-serif;
   font-weight: 900;
   font-style: normal;
   margin: 0;
+  color: white;
 }
 .nav {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .nav-box {
   margin: 0 20px;
-  background-color: rgba(109, 99, 99, 0.274);
-  width: 50px;
-  height: 80px;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 100px;
+  height: 120px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  font-size: x-large;
+  font-weight: 600;
 }
 .nav-box:hover {
-  background-color: rgba(109, 99, 99, 0.185);
+  background-color: rgba(44, 88, 116, 0.548);
+}
+.nav-link {
+  text-decoration: none;
+}
+.latest-nav-box {
+  color: rgb(184, 235, 134);
+}
+.toplist-nav-box {
+  color: blueviolet;
+}
+.random-nav-box {
+  color: orange;
+}
+.upload-nav-box {
+  color: red;
+}
+.forums-nav-box {
+  color: yellow;
+}
+.nav-text {
+  padding: 10px;
+  font-size: large;
+}
+.moto {
+  font-size: medium;
+  color: white;
+}
+.title {
+  text-align: center;
 }
