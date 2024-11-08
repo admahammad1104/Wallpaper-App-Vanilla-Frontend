@@ -197,6 +197,9 @@
   margin: 20px;
   font-size: large;
 }
+.link-button:hover {
+  background-color: rgba(153, 205, 50, 0.747);
+}
 .footer {
   display: block;
   text-align: center;
