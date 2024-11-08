@@ -159,6 +159,44 @@
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.712), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.post {
+  display: flex;
+  flex-direction: row;
+}
+.discussions {
+  display: block;
+  height: 500px;
+  margin: 50px auto 200px auto;
+  width: 450px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(44, 88, 116, 0.548);
+  padding: 20px;
+  border-radius: 10px;
+}
+.profile-image {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
+.post-metadata {
+  display: flex;
+  flex-direction: row;
+}
+.username {
+  margin-right: 20px;
+  color: yellow;
+}
+.link-button {
+  background-color: yellowgreen;
+  color: green;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  font-size: large;
+}
 @media screen and (max-width: 1500px) {
   .header {
     flex-direction: column;
@@ -181,5 +219,9 @@
   }
   .logo {
     margin-top: 50px;
+  }
+  .discussions {
+    width: 300px;
+    height: 600px;
   }
 }
